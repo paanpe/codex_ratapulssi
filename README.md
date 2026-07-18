@@ -4,7 +4,9 @@ Ratapulssi on kevyt verkkosivu Suomen junaliikenteen seurantaan. Sivun karttanä
 
 ## Ominaisuudet
 
-- Reaaliaikainen junien GPS-sijaintien haku ja 60 sekunnin välein tapahtuva päivitys
+- Interaktiivinen, OpenStreetMap-pohjainen koko Suomen kartta: zoomaus, panorointi ja karttamerkintöjen tiedot
+- Reaaliaikainen junien GPS-sijaintien haku 15 sekunnin välein sekä pehmeä liikeanimaatio päivitysten välillä
+- Paikannuspainike, joka näyttää käyttäjän sijainnin ja paikannustarkkuuden kartalla käyttäjän luvalla
 - Aktiivisten junien määrä ja laskettu keskinopeus
 - Suomen rataverkon karttanäkymä ja tärkeimpien kaupunkien merkinnät
 - Helsingin seuraavien lähtöjen esimerkkikooste
@@ -16,7 +18,7 @@ Ratapulssi on kevyt verkkosivu Suomen junaliikenteen seurantaan. Sivun karttanä
 Sivu on toteutettu ilman rakennusvaihetta tai ulkoisia JavaScript-riippuvuuksia:
 
 - HTML, CSS ja tavallinen JavaScript yhdessä `index.html`-tiedostossa
-- SVG-pohjainen kartta
+- Leaflet-karttakirjasto ja OpenStreetMap-karttalaatat
 - Google Fonts: DM Sans, DM Mono ja Space Grotesk
 - Digitraffic Rail API: `https://rata.digitraffic.fi/api/v1/train-locations.geojson/latest`
 
